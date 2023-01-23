@@ -1,5 +1,24 @@
-# hearth1an.Intervention
+![intervention gif](https://user-images.githubusercontent.com/106444732/214147588-1aeb949a-f4b2-4e8a-977e-6d680743b2fe.gif)
 
-![subtitle](https://user-images.githubusercontent.com/106444732/214099251-d063c099-40c4-4088-99c0-edf07881b69b.png)
+# Intervention - unofficial story mod for Outer Wilds
 
-Music used: Andrew Prahlow, Brian Estes. Will fill readme later.
+Made for Outer Wilds modding community jam with [New Horizons](https://outerwildsmods.com/mods/newhorizons).
+
+# Credits
+Author:
+- [heart1an](https://github.com/hearth1an)
+
+Did little help:
+- [clay](https://github.com/FreezeDriedMangos)
+- [JohnCorby](https://github.com/JohnCorby)
+- [xen](https://github.com/xen-42)
+- [Trifid](https://github.com/TerrificTrifid)
+
+and [Outer Wilds Modding Discord](https://discord.gg/MvbCbBz6Q6) community.
+
+Music used:
+- Andrew Prahlow, Arondight Studios
+
+# Disclaimer
+This work is unofficial Fan Content created under permission from the Mobius Digital Fan Content Policy.
+It includes materials which are the property of Mobius Digital and it is neither approved nor endorsed by Mobius Digital.
