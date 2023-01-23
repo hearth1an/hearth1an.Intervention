@@ -1,0 +1,74 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Lost Strings",
+	"starSystem": "UnknownDimension",
+	"Atmosphere": {
+		"atmosphereTint": {
+			"r": 112,
+			"g": 135,
+			"b": 134,
+			"a": 155
+		},
+		"clouds": {
+			"fluidType": "cloud",
+			"innerCloudRadius": 130.0,
+			"outerCloudRadius": 180.0,
+			"texturePath": "planets/assets/lostStrings_Clouds.png",
+			"tint": {
+				"r": 127,
+				"g": 222,
+				"b": 124
+			}
+		},
+		"fogDensity": 0.3,
+		"fogSize": 350.0,
+		"fogTint": {
+			"r": 180,
+			"g": 180,
+			"b": 180
+		},
+		"hasOxygen": true,
+		"size": 180.0,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.2,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 13.0,
+		"surfaceSize": 100.0,
+		"centerOfSolarSystem": false
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 100.0,
+		"minHeight": 96.0,
+		"textureMap": "planets/Assets/lostStrings_TextureMap.png"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 6.0,
+		"semiMajorAxis": 4500.0,
+		"trueAnomaly": 180.0
+	},	
+	"Props": {
+		"singularities": [
+			{
+				"pairedSingularity": "Enter",
+				"type": "blackHole",
+				"position": {
+					"x": 0,
+					"y": -650,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rename": "Enter"
+			}
+		]
+	}
+}

@@ -1,0 +1,44 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>Precedent</ID>
+  <Entry>
+    <ID>UnknownDimension</ID>
+    <Name>Intervention</Name>
+
+    <Curiosity>UnknownDimension_Curiosity</Curiosity>
+    <IsCuriosity/>
+
+    <RumorFact>
+      <ID>UnknownDimension</ID>
+      <SourceID>UnknownDimension</SourceID>
+      <RumorName>Awoke in strange place.</RumorName>
+      <Text>There's things to explore.</Text>
+    </RumorFact>
+    
+    <ExploreFact>
+      <ID>NOMAI_POSSIBILITY_1</ID>
+      <Text>Eye.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>NOMAI_POSSIBILITY_2</ID>
+      <Text>Bramble.</Text>
+    </ExploreFact> 
+    <ExploreFact>
+      <ID>NOMAI_POSSIBILITY_3</ID>
+      <Text>Macroworld.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>STRANGERS_POSSIBILITY_1</ID>
+      <Text>Eye.</Text>
+    </ExploreFact>
+    <ExploreFact>
+      <ID>STRANGERS_POSSIBILITY_2</ID>
+      <Text>Bramble.</Text>
+    </ExploreFact> 
+    <ExploreFact>
+      <ID>STRANGERS_POSSIBILITY_3</ID>
+      <Text>Macroworld.</Text>
+    </ExploreFact>
+
+  </Entry>
+</AstroObjectEntry>

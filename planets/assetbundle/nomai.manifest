@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 3983305839
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 88a58074d6a6203ab571be6751ef31d9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e8d1403c097d10ac10ea57477f27db44
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 01a5b7908b90d934ba5200c0454bd083, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 910a3fad063ead543bc990492531ae37, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0afb808ebdc9697409339cb1d53688b5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Orb_Void.prefab
+- Assets/Prefabs/Void_Crack.prefab
+- Assets/Prefabs/Trigger_Item.prefab
+- Assets/Prefabs/Escall.prefab
+Dependencies:
+- E:/Outer Wilds modding/Template x2/TEMPLATE3/quantummoon/meshes/characters

@@ -1,0 +1,200 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Enacra</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>		
+		<EntryCondition>DEFAULT</EntryCondition>		
+		<Dialogue>
+			<Page>The Void awates.</Page>				
+		</Dialogue>
+		<DialogueOptionsList>		   
+			<DialogueOption>
+				<RequiredPersistentCondition>NOMAI_DONE</RequiredPersistentCondition>
+				<RequiredPersistentCondition>STR_DONE</RequiredPersistentCondition>
+				<RequiredPersistentCondition>DARK_DONE</RequiredPersistentCondition>				
+				<Text>I was in each singularity...</Text>				
+				<DialogueTarget>ENDING</DialogueTarget>				
+			</DialogueOption>
+			<DialogueOption>			   
+				<Text>Slate? Is it you?</Text>
+				<CancelledCondition>QUESTION_2_DONE</CancelledCondition>
+				<DialogueTarget>3</DialogueTarget>				
+			</DialogueOption>
+			<DialogueOption>						   
+				<Text>Where am I? What is this place?</Text>
+				<CancelledCondition>QUESTION_1_DONE</CancelledCondition>
+				<DialogueTarget>4</DialogueTarget>				
+			</DialogueOption>					
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>We met many times and never met before.</Page>					
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>			   		   
+				<Text>I don't understand...</Text>
+				<DialogueTarget>2.2</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ENDING</Name>
+		<Dialogue>
+			<Page>And now you know your destiny. You must enter in the Eye of Universe.</Page>
+			<Page>Otherwise only the darkness awaits you.</Page>
+			<Page>The Precedent is solved.</Page>				
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>			   		   
+				<Text>I understood the importance of me and my timeline.</Text>
+				<DialogueTarget>ENDING_EXIT</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ENDING_EXIT</Name>
+		<SetCondition>ENDING_EXIT_TOLD</SetCondition>
+		<Dialogue>
+			<Page>I can't get you back, only you can find a way out. Those are rules.</Page>
+			<Page>You should now think like Escall and his clan did.</Page>
+			<Page>That's all I can say.</Page>
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ENDING_EXIT_FINAL</Name>
+		<EntryCondition>ENDING_EXIT_TOLD</EntryCondition>
+		<Dialogue>
+			<Page>I can't get you back, only you can find a way out. Those are rules.</Page>
+			<Page>You should now think like Escall and his clan did.</Page>
+			<Page>That's all I can say.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2.2</Name>
+		<SetCondition>QUESTION_1_DONE</SetCondition>
+		<Dialogue>
+			<Page>You don't have to. The reason you here is your timeline.</Page>								
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>			   		   
+				<Text>I don't understand...</Text>
+				<DialogueTarget>2.2</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>		
+		<SetCondition>QUESTION_2_DONE</SetCondition>
+		<Dialogue>
+			<Page>You can be sure I am not Slate. Probably it is just your enterpretation of entity observed.</Page>			
+			<Page>My name is Enacra, but usually we have no names.</Page>
+			<Page>We are concerned about your condition. Certain things must happen in a cetain way — do not hinder.</Page>
+			<Page>Our worlds must never cross, but current timeline is suffering. I am here to fix this.</Page>
+			<Page>Your universe is not the only one, nor your form of existence. I came from the Void.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>			   		   
+				<Text>But our worlds would never cross!</Text>
+				<DialogueTarget>3.1</DialogueTarget>				
+			</DialogueOption>					
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3.1</Name>		
+		<Dialogue>
+			<Page>It is the matter of perspective. The possibility exists and it's rising by a complexity of your timeline.</Page>			
+			<Page>You came too close, we had to intervent. We must keep the balance.</Page>
+			<Page>You will see the most relevant events of your own time stream.</Page>
+			<Page>I will show you the importance of your inevitable future.</Page>
+			<Page>Cross each singularity to conceive the knowledge.</Page>	
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<Text>Seems like I have no choice...</Text>
+				<DialogueTarget>3.2</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3.2</Name>		
+		<Dialogue>
+			<Page>There is always a choice. Time has stopped, if you die here you will dissolve in darkness.</Page>
+			<Page>Cross each singularity to conceive the knowledge.</Page>	
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<Text>Alright.. I'll do this..</Text>
+				<DialogueTarget>END_CONVERSATION</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END_CONVERSATION</Name>		
+		<Dialogue>
+			<Page>We will meet again.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+	<DialogueNode>
+		<Name>END_CONVERSATION_2</Name>		
+		<Dialogue>
+			<Page>We will meet again.</Page>
+			<Page>Soon.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4</Name>
+		<SetCondition>QUESTION_1_DONE</SetCondition>
+		<Dialogue>
+			<Page>It is not a place exactly, but the time point, the static one. You are in stasis that we created.</Page>										
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>But... why?</Text>
+				<DialogueTarget>4.1</DialogueTarget>				
+			</DialogueOption>					
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4.1</Name>		
+		<Dialogue>
+			<Page>We are concerned about your condition. Certain things must happen in a cetain way.</Page>
+			<Page>Your universe is not the only one, nor your form of existence.</Page>	
+			<Page>Once you conceive the knowledge from each singularity, you will be free.</Page>
+			<Page>Untill then you and I will be in stasis.</Page>								
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<Text>Seems like I have no choice...</Text>
+				<DialogueTarget>3.2</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>4.2</Name>		
+		<Dialogue>
+			<Page>We are concerned about your condition. Certain things must happen in a cetain way.</Page>			
+			<Page>Once you conceive the knowledge from each singularity, you will be free.</Page>
+			<Page>Untill then you and I will be in stasis.</Page>								
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<Text>Thanks for reminding.</Text>
+				<DialogueTarget>END_CONVERSATION_2</DialogueTarget>				
+			</DialogueOption>			
+		</DialogueOptionsList>
+	</DialogueNode>
+</DialogueTree>

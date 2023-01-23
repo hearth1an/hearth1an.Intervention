@@ -1,0 +1,97 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Enacra</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>		
+		<EntryCondition>DEFAULT</EntryCondition>
+		<SetCondition>START_DONE_STR</SetCondition>		
+		<Dialogue>
+			<Page>This is the first Eye Seeker. Their past was as dark as future.</Page>
+			<Page>With ancient flames they had an ability to seek for other worlds, but their time was coming to an end.</Page>
+			<Page>Eventually, they had no other choice.</Page>						
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<RequiredLogCondition>STRANGERS_POSSIBILITY_1</RequiredLogCondition>
+				<RequiredLogCondition>STRANGERS_POSSIBILITY_3</RequiredLogCondition>
+				<RequiredLogCondition>STRANGERS_POSSIBILITY_3</RequiredLogCondition>
+				<Text>I understood the importance of the Seekers choice.</Text>	
+				<DialogueTarget>STR_ENACRA_DONE</DialogueTarget>			
+			</DialogueOption>			
+			<DialogueOption>
+			<CancelledPersistentCondition>STR_QUESTION_ASKED</CancelledPersistentCondition>			
+				<Text>Why their past was dark? Why they had no choice?</Text>					
+				<DialogueTarget>3</DialogueTarget>					
+			</DialogueOption>
+		</DialogueOptionsList>	
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>START_2</Name>
+		<EntryCondition>START_DONE_STR</EntryCondition>
+		<Dialogue>
+			<Page>The Void awaits.</Page>			
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<RequiredLogCondition>STRANGERS_POSSIBILITY_1</RequiredLogCondition>
+				<RequiredLogCondition>STRANGERS_POSSIBILITY_3</RequiredLogCondition>
+				<RequiredLogCondition>STRANGERS_POSSIBILITY_3</RequiredLogCondition>
+				<Text>I understood the importance of the Seekers choice.</Text>	
+				<DialogueTarget>STR_ENACRA_DONE</DialogueTarget>			
+			</DialogueOption>			
+		</DialogueOptionsList>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<SetPersistentCondition>STR_QUESTION_ASKED</SetPersistentCondition>
+		<Dialogue>
+			<Page>There are mysteries that should not be covered in this timeline.</Page>
+			<Page>You will not be able to comprehend the darkness of their origin.</Page>
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END_CONVERSATION</Name>		
+		<Dialogue>
+			<Page>We will meet again.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END_CONVERSATION_2</Name>		
+		<Dialogue>
+			<Page>We will meet again.</Page>
+			<Page>Soon.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>	
+		<Name>STR_DIALOGUE_DONE</Name>
+		<EntryCondition>STR_DIALOGUE_DONE</EntryCondition>
+		<SetCondition>STR_DIALOGUE_DONE_2</SetCondition>
+		<Dialogue>
+			<Page>Now you know the importance of the Seekers choice.</Page>					
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>	
+		<Name>STR_DIALOGUE_DONE_2</Name>
+		<EntryCondition>STR_DIALOGUE_DONE_2</EntryCondition>		
+		<Dialogue>			
+			<Page>The Void awaits.</Page>				
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>STR_ENACRA_DONE</Name>
+		<SetCondition>STR_DIALOGUE_DONE</SetCondition>
+		<SetPersistentCondition>STR_DONE</SetPersistentCondition>
+		<Dialogue>
+		    <Page>Ancient flames attracts the darkest creatures. The price they paid for using it was too high.</Page>	
+			<Page>Only the Eye could save them little more, to reach their end in simulation.</Page>
+			<Page>Now we done here.</Page>							
+		</Dialogue>		
+	</DialogueNode>
+</DialogueTree>

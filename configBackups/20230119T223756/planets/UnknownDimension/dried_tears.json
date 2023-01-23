@@ -1,0 +1,90 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Dried Tears",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"ambientLight": 2.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 70.0
+		
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 50.0,
+		"minHeight": 50.0,
+		"textureMap": "planets/Assets/driedTears_TextureMap.png"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"showOrbitLine": false,
+		"semiMajorAxis": 3000.0,
+		"trueAnomaly": 90.0
+		
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Huge Warp Core.prefab",
+				"position": {
+					"y": -650.0
+				},
+				"rotation": {},
+				"scale": 2000.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Slate_For_Jam.prefab",				
+				"position": {
+					"x": 11.0293,
+					"y": -79.4976,
+					"z": -4.0952
+				},
+				"rotation": {
+					"x": 350,
+					"y": 89.0302,
+					"z": 180
+				},
+				"keepLoaded": true
+			}
+		]
+	},
+	"Sand": {
+		"size": 80		
+	},
+
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/ambience.mp3",
+				"loop": true,
+				"radius": 100,
+				"track": "music",
+				"volume": 0.8
+			}
+		]
+	},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"y": 20,
+			"z": 0
+		},
+		"startWithSuit": true,
+		"playerSpawnRotation": {},
+		"shipSpawnPoint": {
+			"y": -650.0,
+			"z": -50.0
+		},
+		"shipSpawnRotation": {
+			"x": -50.0,
+			"y": 50.0
+		}
+	}
+	
+}

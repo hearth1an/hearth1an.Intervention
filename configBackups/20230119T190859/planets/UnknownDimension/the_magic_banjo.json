@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Magic Banjo",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"ambientLight": 1.2,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 2.0
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 2.0,
+		"minHeight": 1.8,
+		"textureMap": "planets/Assets/lostStrings_TextureMap.png"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"semiMajorAxis": 3000.0,
+		"showOrbitLine": false,
+		"trueAnomaly": 90.0
+	}
+	
+}

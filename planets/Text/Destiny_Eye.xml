@@ -1,0 +1,12 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>        
+		<Text>Escall received the Eye's signal and iniciated the warp. He and his clan were trapped in the Dark Bramble.</Text>
+	</TextBlock>
+	 <ShipLogConditions>
+    <RevealFact>
+      <FactID>NOMAI_POSSIBILITY_1</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>

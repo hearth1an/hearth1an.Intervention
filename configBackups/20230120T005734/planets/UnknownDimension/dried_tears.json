@@ -1,0 +1,213 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Dried Tears",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"ambientLight": 2.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 70.0
+	},
+	"canShowOnTitle": false,
+	"HeightMap": {
+		"heightMap": "planets/Assets/lostStrings_HeightMap.png",
+		"maxHeight": 50.0,
+		"minHeight": 50.0,
+		"textureMap": "planets/Assets/driedTears_TextureMap.png"
+	},
+	"Orbit": {
+		"primaryBody": "White Sun",
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"showOrbitLine": false,
+		"semiMajorAxis": 3000.0,
+		"trueAnomaly": 90.0
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Huge_Warp_Core.prefab",
+				"position": {
+					"x": -3.81469727E-06,
+					"y": -650.000061
+				},
+				"rotation": {},
+				"scale": 2000.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Slate_For_Jam.prefab",
+				"position": {
+					"x": 11.1293,
+					"y": -78.9976,
+					"z": -3.8952
+				},
+				"rotation": {
+					"x": 349.899963,
+					"y": 89.03018,
+					"z": 180.0
+				},
+				"scale": 2.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": 8.96334648,
+					"y": -79.4132,
+					"z": -3.63363647
+				},
+				"rotation": {
+					"x": 6.41323471,
+					"y": 269.4216,
+					"z": 177.331955
+				},
+				"rename": "SandFall_1"
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": 15.6043863,
+					"y": -75.81409,
+					"z": 20.2171936
+				},
+				"rotation": {
+					"x": 5.294737,
+					"y": 143.630981,
+					"z": 162.126511
+				},
+				"rename": "SandFall_2"
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": 8.80511,
+					"y": -73.56113,
+					"z": -30.1866989
+				},
+				"rotation": {
+					"x": 0.327796221,
+					"y": 72.9718,
+					"z": 203.142731
+				},
+				"rename": "SandFall_3"
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_1",
+				"scale": 5,
+				"position": {
+					"x": 0,
+					"y": 30,
+					"z": 0
+				},
+				"rename": "Orb_1",
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_2",
+				"scale": 5,
+				"position": {
+					"x": 0,
+					"y": 30,
+					"z": 0
+				},
+				"rename": "Orb_2",
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_3",
+				"scale": 5,
+				"position": {
+					"x": 0,
+					"y": 30,
+					"z": 0
+				},
+				"rename": "Orb_3",
+				"keepLoaded": true
+			}
+		],
+		"singularities": [
+			{
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_1/Orb_1",
+				"position": {
+
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},	
+				"type": "blackHole",
+				"rename": "BH_1"
+
+			},
+			{
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_2/Orb_2",
+				"position": {
+
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},				
+				"type": "blackHole",
+				"rename": "BH_2"
+			},
+			{
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_3/Orb_3",
+				"position": {
+
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"type": "blackHole",
+				"rename": "BH_3"
+			}
+		]
+	},
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 80.0
+	},
+	"ShipLog": {},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"y": 20.0
+		},
+		"playerSpawnRotation": {},
+		"shipSpawnPoint": {
+			"y": -650.0,
+			"z": -50.0
+		},
+		"shipSpawnRotation": {
+			"x": -50.0,
+			"y": 50.0
+		},
+		"startWithSuit": true
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/ambience.mp3",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.8,
+				"radius": 100.0
+			}
+		]
+	}
+}

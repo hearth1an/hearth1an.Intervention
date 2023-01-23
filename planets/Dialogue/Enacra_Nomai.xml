@@ -1,0 +1,104 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Enacra</NameField>
+
+	<DialogueNode>
+		<Name>Start</Name>		
+		<EntryCondition>DEFAULT</EntryCondition>
+		<SetCondition>START_DONE</SetCondition>		
+		<Dialogue>
+			<Page>Escall's fate was sealed in this timeline.</Page>
+			<Page>We were watching for Nomai since their intelligence threatens our reality.</Page>				
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<RequiredLogCondition>NOMAI_POSSIBILITY_1</RequiredLogCondition>
+				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
+				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
+				<Text>I understood the importance of Nomai destiny.</Text>					
+				<DialogueTarget>NOMAI_ENACRA_DONE</DialogueTarget>			
+			</DialogueOption>
+			<DialogueOption>
+				<CancelledPersistentCondition>NOT_WANT_TOLD</CancelledPersistentCondition>
+				<Text>But what if I don't want to know such things?</Text>					
+				<DialogueTarget>2</DialogueTarget>					
+			</DialogueOption>
+		</DialogueOptionsList>	
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>START_2</Name>
+		<EntryCondition>START_DONE</EntryCondition>
+		<Dialogue>
+			<Page>The Void awaits.</Page>							
+		</Dialogue>
+		<DialogueOptionsList>
+		    <DialogueOption>
+				<RequiredLogCondition>NOMAI_POSSIBILITY_1</RequiredLogCondition>
+				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
+				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
+				<Text>I understood the importance of Nomai destiny.</Text>					
+				<DialogueTarget>NOMAI_ENACRA_DONE</DialogueTarget>			
+			</DialogueOption>
+			<DialogueOption>
+				<CancelledPersistentCondition>NOT_WANT_TOLD</CancelledPersistentCondition>
+				<Text>But what if I don't want to know such things?</Text>					
+				<DialogueTarget>2</DialogueTarget>					
+			</DialogueOption>
+		</DialogueOptionsList>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<SetPersistentCondition>NOT_WANT_TOLD</SetPersistentCondition>
+		<Dialogue>
+			<Page>It is ruled out.</Page>
+			<Page>No exceptions.</Page>					
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END_CONVERSATION</Name>		
+		<Dialogue>
+			<Page>We will meet again.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>END_CONVERSATION_2</Name>		
+		<Dialogue>
+			<Page>We will meet again.</Page>
+			<Page>Soon.</Page>			
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>	
+		<Name>NOMAI_DIALOGUE_DONE</Name>
+		<EntryCondition>NOMAI_DIALOGUE_DONE</EntryCondition>
+		<SetCondition>NOMAI_DIALOGUE_DONE_2</SetCondition>
+		<Dialogue>
+			<Page>Now you know Nomai destiny.</Page>
+			<Page>The Void awaits.</Page>		
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>	
+		<Name>NOMAI_DIALOGUE_DONE_2</Name>
+		<EntryCondition>NOMAI_DIALOGUE_DONE_2</EntryCondition>		
+		<Dialogue>			
+			<Page>The Void awaits.</Page>
+			<Page>It should be clear.</Page>		
+		</Dialogue>		
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NOMAI_ENACRA_DONE</Name>
+		<SetCondition>NOMAI_DIALOGUE_DONE</SetCondition>
+		<SetPersistentCondition>NOMAI_DONE</SetPersistentCondition>
+		<Dialogue>
+			<Page>It is not the main point. Imagine if Nomai would find the Eye? </Page>			
+			<Page>We have a prediction about the most advanced race that will reach the Eye to explore it's essence.</Page>
+			<Page>It will cause all realities collapse, that's why we keep watching for everyone, who is close enough to interact with Eye.</Page>
+			<Page>That's all for now.</Page>							
+		</Dialogue>		
+	</DialogueNode>
+</DialogueTree>

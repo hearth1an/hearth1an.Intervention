@@ -1,0 +1,837 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Precedent",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"ambientLight": 2.0,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 10.0,
+		"surfaceSize": 70.0
+			
+	},
+	"canShowOnTitle": false,	
+	"Orbit": {
+		"primaryBody": "Void Star",
+		"siderealPeriod": 7.0,
+		"isTidallyLocked": true,
+		"showOrbitLine": false,
+		"semiMajorAxis": 1300.0,
+		"trueAnomaly": 10.0			
+	},
+	"Props": {
+
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Huge_Warp_Core.prefab",
+				"position": {
+					"y": -650.0001
+				},
+				"rotation": {},
+				"scale": 2000.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Slate_For_Jam.prefab",
+				"position": {
+					"x": 11.1293011,
+					"y": -78.9976044,
+					"z": -3.89520264
+				},
+				"rotation": {
+					"x": 349.899963,
+					"y": 89.03018,
+					"z": 180.0
+				},
+				"scale": 2.0
+			},
+			{
+				"rename": "SandFall_1",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": 8.963346,
+					"y": -79.4132156,
+					"z": -3.63363647
+				},
+				"rotation": {
+					"x": 6.41323328,
+					"y": 269.4216,
+					"z": 177.331955
+				}
+			},
+			{
+				"rename": "SandFall_2",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": 15.6043854,
+					"y": -75.8140945,
+					"z": 20.2171936
+				},
+				"rotation": {
+					"x": 5.29473972,
+					"y": 143.630981,
+					"z": 162.126511
+				}
+			},
+			{
+				"rename": "SandFall_3",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": 8.805109,
+					"y": -73.56114,
+					"z": -30.1866989
+				},
+				"rotation": {
+					"x": 0.327797085,
+					"y": 72.9717941,
+					"z": 203.142731
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 9.825373,
+					"y": 79.1818848,
+					"z": -5.80455
+				},
+				"rotation": {
+					"x": 351.8119,
+					"y": 303.823425,
+					"z": 359.536652
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -4.30997944,
+					"y": 79.5680542,
+					"z": -7.09577942
+				},
+				"rotation": {
+					"x": 355.840881,
+					"y": 77.09328,
+					"z": 355.731964
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -5.377182,
+					"y": 79.6696,
+					"z": 4.883255
+				},
+				"rotation": {
+					"x": 355.088135,
+					"y": 151.750412,
+					"z": 358.262634
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -17.362442,
+					"y": 78.09254,
+					"z": -0.3242874
+				},
+				"rotation": {
+					"x": 348.6575,
+					"y": 63.35997,
+					"z": 5.3759017
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -16.3873234,
+					"y": 77.7567,
+					"z": -9.23891449
+				},
+				"rotation": {
+					"x": 350.3069,
+					"y": 15.497179,
+					"z": 9.58657
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -13.6122761,
+					"y": 76.81775,
+					"z": -17.7127
+				},
+				"rotation": {
+					"x": 348.418,
+					"y": 352.3511,
+					"z": 11.4264383
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -16.63446,
+					"y": 73.2377,
+					"z": -27.5596924
+				},
+				"rotation": {
+					"x": 336.910431,
+					"y": 17.0277729,
+					"z": 5.62027073
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -22.11931,
+					"y": 74.5281,
+					"z": -18.875824
+				},
+				"rotation": {
+					"x": 3.640955,
+					"y": 148.909988,
+					"z": 338.984833
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -39.2201233,
+					"y": 66.1609039,
+					"z": -22.0117531
+				},
+				"rotation": {
+					"x": 326.249481,
+					"y": 71.29163,
+					"z": 354.0673
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -41.91009,
+					"y": 67.20555,
+					"z": -11.2677956
+				},
+				"rotation": {
+					"x": 356.203339,
+					"y": 159.053055,
+					"z": 327.343079
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -54.9596443,
+					"y": 52.8170052,
+					"z": -24.2858429
+				},
+				"rotation": {
+					"x": 312.509583,
+					"y": 49.6880646,
+					"z": 12.2962465
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -48.889595,
+					"y": 54.39289,
+					"z": -32.4225578
+				},
+				"rotation": {
+					"x": 354.388275,
+					"y": 331.675629,
+					"z": 46.9069557
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -48.14699,
+					"y": 63.8451271,
+					"z": 2.38069534
+				},
+				"rotation": {
+					"x": 344.721863,
+					"y": 161.6212,
+					"z": 325.822632
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -70.34348,
+					"y": 38.0511169,
+					"z": -1.97662163
+				},
+				"rotation": {
+					"x": 298.842743,
+					"y": 77.4513245,
+					"z": 9.60911751
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -67.16548,
+					"y": 41.81103,
+					"z": -11.8592167
+				},
+				"rotation": {
+					"x": 2.45468068,
+					"y": 348.480774,
+					"z": 58.4583931
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -74.60822,
+					"y": 26.8942966,
+					"z": -10.5028753
+				},
+				"rotation": {
+					"x": 341.399628,
+					"y": 358.8866,
+					"z": 69.22455
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -78.0610657,
+					"y": 17.3036289,
+					"z": -2.65691423
+				},
+				"rotation": {
+					"x": 287.098938,
+					"y": 131.982,
+					"z": 317.3613
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -78.83257,
+					"y": 9.652826,
+					"z": 9.604624
+				},
+				"rotation": {
+					"x": 322.2021,
+					"y": 181.5368,
+					"z": 278.783447
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -77.8999939,
+					"y": -4.45265961,
+					"z": 17.6569138
+				},
+				"rotation": {
+					"x": 286.2994,
+					"y": 203.761032,
+					"z": 258.561584
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -75.491684,
+					"y": -11.8867273,
+					"z": 23.6583557
+				},
+				"rotation": {
+					"x": 303.6472,
+					"y": 4.35383844,
+					"z": 105.55513
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -78.37197,
+					"y": -15.5735388,
+					"z": 3.911665
+				},
+				"rotation": {
+					"x": 7.929452,
+					"y": 4.44139671,
+					"z": 101.3352
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -72.94997,
+					"y": -32.7106476,
+					"z": 2.88419724
+				},
+				"rotation": {
+					"x": 295.176361,
+					"y": 254.660461,
+					"z": 196.021255
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -65.4244843,
+					"y": -45.7001572,
+					"z": 5.58003235
+				},
+				"rotation": {
+					"x": 308.510254,
+					"y": 245.879532,
+					"z": 203.444611
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -65.9702,
+					"y": -44.72718,
+					"z": -6.885906
+				},
+				"rotation": {
+					"x": 7.791249,
+					"y": 359.335083,
+					"z": 124.353607
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -56.33954,
+					"y": -52.84408,
+					"z": 20.8173447
+				},
+				"rotation": {
+					"x": 356.754059,
+					"y": 203.139236,
+					"z": 228.577026
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -61.2231865,
+					"y": -44.80834,
+					"z": 25.3759613
+				},
+				"rotation": {
+					"x": 49.8720932,
+					"y": 149.180969,
+					"z": 209.650787
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -46.9189644,
+					"y": -63.15898,
+					"z": 14.4760361
+				},
+				"rotation": {
+					"x": 327.293182,
+					"y": 321.4562,
+					"z": 159.75972
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -44.1586266,
+					"y": -66.29969,
+					"z": 7.3737793
+				},
+				"rotation": {
+					"x": 345.539185,
+					"y": 347.02832,
+					"z": 148.85495
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -32.07484,
+					"y": -73.0594254,
+					"z": 5.79046631
+				},
+				"rotation": {
+					"x": 335.968353,
+					"y": 282.077332,
+					"z": 179.248871
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -19.3302116,
+					"y": -75.42204,
+					"z": 18.3809814
+				},
+				"rotation": {
+					"x": 3.15740061,
+					"y": 214.584839,
+					"z": 199.2292
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -10.6636639,
+					"y": -77.46623,
+					"z": 16.8899536
+				},
+				"rotation": {
+					"x": 349.730347,
+					"y": 282.375061,
+					"z": 190.233047
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -2.81451321,
+					"y": -79.12827,
+					"z": 11.4366608
+				},
+				"rotation": {
+					"x": 352.808319,
+					"y": 314.140259,
+					"z": 184.478867
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -0.4239254,
+					"y": -79.87389,
+					"z": 4.46981049
+				},
+				"rotation": {
+					"x": 356.836,
+					"y": 344.123016,
+					"z": 180.583771
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": -0.78632164,
+					"y": -79.92172,
+					"z": -3.45070648
+				},
+				"rotation": {
+					"x": 2.535416,
+					"y": 12.251771,
+					"z": 179.974091
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 4.892288,
+					"y": -78.5478058,
+					"z": -14.3636093
+				},
+				"rotation": {
+					"x": 10.8247242,
+					"y": 332.99472,
+					"z": 178.4505
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 13.6655483,
+					"y": -77.8786545,
+					"z": -12.1724854
+				},
+				"rotation": {
+					"x": 10.5949926,
+					"y": 274.4435,
+					"z": 172.041016
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 25.2870636,
+					"y": -74.75919,
+					"z": -13.1007614
+				},
+				"rotation": {
+					"x": 20.8126621,
+					"y": 293.607727,
+					"z": 178.655167
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 25.4534,
+					"y": -71.8403549,
+					"z": -24.3124924
+				},
+				"rotation": {
+					"x": 18.5674362,
+					"y": 0.406044334,
+					"z": 198.681839
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 32.67826,
+					"y": -71.40374,
+					"z": -15.2852554
+				},
+				"rotation": {
+					"x": 11.75381,
+					"y": 229.387,
+					"z": 155.7361
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 40.0520554,
+					"y": -66.96495,
+					"z": -17.65036
+				},
+				"rotation": {
+					"x": 31.92889,
+					"y": 311.343842,
+					"z": 189.50177
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 53.2663536,
+					"y": -59.52541,
+					"z": -4.408043
+				},
+				"rotation": {
+					"x": 22.1439972,
+					"y": 211.68132,
+					"z": 143.448334
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 57.66039,
+					"y": -55.1402779,
+					"z": 5.90198135
+				},
+				"rotation": {
+					"x": 16.1779633,
+					"y": 190.1766,
+					"z": 135.86264
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 53.6882,
+					"y": -57.2092857,
+					"z": 15.6423378
+				},
+				"rotation": {
+					"x": 339.977661,
+					"y": 141.8672,
+					"z": 139.562851
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 52.57383,
+					"y": -52.7372169,
+					"z": 29.23655
+				},
+				"rotation": {
+					"x": 29.6552982,
+					"y": 180.8643,
+					"z": 139.338745
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 37.6740036,
+					"y": -63.26632,
+					"z": 31.273674
+				},
+				"rotation": {
+					"x": 331.102051,
+					"y": 94.8050842,
+					"z": 154.596237
+				}
+			},
+			{
+				"path": "DriedTears_Body/Sector/SandFall_1/SandPileSplash",
+				"position": {
+					"x": 35.6888351,
+					"y": -67.63441,
+					"z": 23.4924545
+				},
+				"rotation": {
+					"x": 329.5888,
+					"y": 34.9435425,
+					"z": 191.390091
+				}
+			}
+		],
+
+		"singularities": [
+			{
+				"type": "blackHole",
+				"horizonRadius": 1.5,
+				"position": {
+					"x": 0,
+					"y": 40,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 3001,
+				"parentPath": "Sector/SandFall_1",
+				"isRelativeToParent": true,
+				"uniqueID": "BH_1",
+				"rename": "BH_1",
+				"pairedSingularity": "WH_NOM"
+			},
+			{
+				"type": "whiteHole",
+				"position": {
+					"x": 0,
+					"y": 80,
+					"z": 0
+				},
+				"renderQueueOverride": 2501,
+				"isRelativeToParent": true,
+				"uniqueID": "WH_1",
+				"rename": "WH_1",
+				"pairedSingularity": "BH_NOM"
+			},
+			{
+				"type": "whiteHole",
+				"position": {
+					"x": 0,
+					"y": 80,
+					"z": 0
+				},
+				"renderQueueOverride": 2501,
+				"isRelativeToParent": true,
+				"uniqueID": "WH_2",
+				"rename": "WH_2",
+				"pairedSingularity": "BH_STR"
+			},
+			{
+				"type": "whiteHole",
+				"position": {
+					"x": 0,
+					"y": 80,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2501,
+				"isRelativeToParent": true,
+				"uniqueID": "WH_3",
+				"rename": "WH_3",
+				"pairedSingularity": "BH_DARK_2"
+			},
+			{
+				"type": "blackHole",
+				"horizonRadius": 1.5,
+				"position": {
+					"x": 0,
+					"y": 40,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 3002,
+				"parentPath": "Sector/SandFall_2",
+				"isRelativeToParent": true,
+				"rename": "BH_2",
+				"uniqueID": "BH_2",
+				"pairedSingularity": "WH_STR"
+			},
+			{
+				"type": "blackHole",
+				"horizonRadius": 1.5,
+				"position": {
+					"x": 0,
+					"y": 40,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 3003,
+				"parentPath": "Sector/SandFall_3",
+				"isRelativeToParent": true,
+				"rename": "BH_3",
+				"uniqueID": "BH_3",
+				"pairedSingularity": "WH_DARK_1"
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": 2,
+					"z": 0
+				},
+				"xmlFile": "planets/Dialogue/Enacra.xml",
+				"parentPath": "Sector/Slate_For_Jam",
+				"isRelativeToParent": true,
+				"pathToAnimController": "Sector/Slate_For_Jam/Villager_HEA_Slate_ANIM_LogSit",
+				"radius": 2,
+				"range": 1
+			}
+		],
+		"entryLocation": [
+			{
+				"id": "UnknownDimension",
+				"position": {
+					"y": 20.0
+				}
+			}
+		]
+	},
+	"ShipLog": {
+		"spriteFolder": "planets/shiplogs/sprites",
+		"xmlFile": "planets/shiplogs/Precedent.xml"
+	},
+
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 80.0
+	},
+
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"y": 20.0
+		},
+		"playerSpawnRotation": {},
+		"startWithSuit": true
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/ambience_main_planet.mp3",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.9,
+				"radius": 300.0
+			}
+		]
+	},
+
+	"removeChildren": [ "Sector/WH_1/WhiteHoleAmbience", "Sector/WH_2/WhiteHoleAmbience", "Sector/WH_3/WhiteHoleAmbience" ]
+}

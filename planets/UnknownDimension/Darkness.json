@@ -1,0 +1,244 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Darkness",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"ambientLight": 1,
+		"gravityFallOff": "linear",
+		"hasMapMarker": false,
+		"surfaceGravity": 15,
+		"surfaceSize": 10.0
+	},
+	"canShowOnTitle": false,
+	"Cloak": { "radius": 400 },
+
+	"Orbit": {
+		"primaryBody": "Void Star",
+		"isTidallyLocked": false,
+		"showOrbitLine": false,
+		"isStatic": true,
+		"semiMajorAxis": 10000.0
+	},
+	"Props": {
+		"details": [
+
+			{
+				"assetBundle": "planets/assetbundle/dark_level",
+				"path": "Assets/Prefabs/Dark_Level.prefab",
+				"position": {
+					"x": 16.8,
+					"y": -37.9,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 1
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Slate_For_Jam.prefab",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Dark_Level",
+				"position": {
+					"x": -55.7081,
+					"y": 16.9953,
+					"z": 7.7144
+				},
+				"rotation": {
+					"x": 0,
+					"y": 121,
+					"z": 180
+				},
+				"scale": 2
+			},
+			{
+				"rename": "SandFall_1",
+				"isRelativeToParent": true,
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"parentPath": "Sector/Dark_Level",
+				"removeChildren": [ "Sandpile", "SandfallParticles", "SandfallStream", "SandPileSplash", "SandPileCloud", "SandfallFluidVolume" ],
+				"position": {
+					"x": -69.6744,
+					"y": 14.3735,
+					"z": 0.3399
+				},
+				"rotation": {
+					"x": 0,
+					"y": 180,
+					"z": 180
+				}
+			},
+			{
+				"isRelativeToParent": true,
+				"rename": "Particles 1",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel/Effects_NOM_AdvancedWarpCore/Effects_NOM_WarpParticlesWhite",
+				"parentPath": "Sector/Dark_Level/SandFall_1",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"scale": 100
+			},
+			{
+				"isRelativeToParent": true,
+				"rename": "Particles 2",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel/Effects_NOM_AdvancedWarpCore/Effects_NOM_WarpParticlesWhite",
+				"parentPath": "Sector/Dark_Level/SandFall_1",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"scale": 100
+			},
+			{
+				"isRelativeToParent": true,
+				"rename": "Particles 3",
+				"path": "TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Interactables_TimeLoopInterior/WarpCoreSocket/Prefab_NOM_WarpCoreVessel/Effects_NOM_AdvancedWarpCore/Effects_NOM_WarpParticlesWhite",
+				"parentPath": "Sector/Dark_Level/SandFall_1",
+				"position": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 100
+			},
+			{
+				"rename": "Gravity_New",
+				"parentPath": "Sector/Dark_Level",
+				"path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
+				"removeChildren": [ "AudioSource_GravityCrystal", "Props_NOM_GravityCrystal", "Props_NOM_GravityCrystal_Base", "Light_NOM_GravityCrystal" ],
+				"position": {
+					"x": -26.458,
+					"y": 18.1128,
+					"z": 3.0539
+				},
+				"rotation": {
+					"x": 0,
+					"y": 90,
+					"z": 180
+				},
+				"scale": 500
+			}
+
+
+
+		],
+		"singularities": [
+			{
+				"type": "blackHole",
+				"horizonRadius": 1.5,
+				"position": {
+					"x": 0,
+					"y": 5,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Dark_Level/SandFall_1",
+				"rename": "BH_DARK_2",
+				"uniqueID": "BH_DARK_2",
+				"pairedSingularity": "WH_3"
+			},
+			{
+				"type": "blackHole",
+				"horizonRadius": 2.5,
+				"position": {
+					"x": 17.08,
+					"y": -27.94,
+					"z": 2.98
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"parentPath": "Sector/Dark_Level",
+				"isRelativeToParent": true,
+				"rename": "BH_DARK_1",
+				"uniqueID": "BH_DARK_1",
+				"pairedSingularity": "WH_DARK_2"
+			},
+			{
+				"type": "whiteHole",
+				"position": {
+					"x": -10.04,
+					"y": 1.294,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Dark_Level",
+				"rename": "WH_DARK_1",
+				"uniqueID": "WH_DARK_1",
+				"pairedSingularity": "BH_3"
+			},
+			{
+				"type": "whiteHole",
+				"position": {
+					"x": -7.112,
+					"y": 1.294,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Dark_Level",
+				"rename": "WH_DARK_2",
+				"uniqueID": "WH_DARK_2",
+				"pairedSingularity": "BH_DARK_1"
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"xmlFile": "planets/Dialogue/Enacra_Darkness.xml",
+				"parentPath": "Sector/Dark_Level/Slate_For_Jam",
+				"isRelativeToParent": true,
+				"pathToAnimController": "Sector/Dark_Level/Slate_For_Jam/Villager_HEA_Slate_ANIM_LogSit",
+				"radius": 2,
+				"range": 1
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "Eye_of_Universe_Ambience_v2_01",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.8,
+				"radius": 300.0
+			}
+		]
+	},
+
+	"ReferenceFrame": {},
+	"Sand": {
+		"size": 10.0
+	},
+
+	"removeChildren": [ "Sector/Dark_Level/BH_DARK_1/BlackHoleRenderer", "Sector/Dark_Level/BH_DARK_1/BlackHoleRenderer/BlackHoleAmbience", "Sector/Dark_Level/WH_DARK_2/WhiteHoleAmbience", "Sector/Dark_Level/Gravity_New/AudioSource_GravityCrystal" ]
+}

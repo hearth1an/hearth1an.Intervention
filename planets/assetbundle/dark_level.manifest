@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 2060494278
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3093f622c1e672b39479be4f376da356
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f4e74d6d0f3b5b2ae0ef4eae62abe06e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 910a3fad063ead543bc990492531ae37, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/Dark_Level.prefab
+Dependencies: []

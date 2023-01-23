@@ -1,0 +1,101 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "White Sun",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 1.0,
+		"surfaceSize": 150.0
+	},
+	"canShowOnTitle": true,
+	"Orbit": {
+		"showOrbitLine": false,
+		"isStatic": true
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"Star": {
+		"size": 150.0,
+		"solarLuminosity": 1.0,
+		"tint": {
+			"r": 50,
+			"g": 50,
+			"b": 150
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "pulsar"
+	},
+	"Props": {
+		"details": [
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Huge Warp Core.prefab",
+				"position": {
+					"x": 0,
+					"y": -650,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 2000
+			},
+			{
+				"keepLoaded": true,
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Slate_For_Jam.prefab",
+				"position": {
+					"x": 0,
+					"y": -2500,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			}
+		],
+
+		"singularities": [
+			{
+				"pairedSingularity": "Enter",
+				"type": "whiteHole",
+				"position": {
+					"x": 0,
+					"y": -650,
+					"z": 0
+				},
+				"rotation": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"rename": "Exit"
+			}
+
+		]
+	},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"y": -650.0,
+			"z": -50.0
+		},
+		"playerSpawnRotation": {},
+		"startWithSuit": false,
+		"shipSpawnPoint": {
+			"y": -650.0,
+			"z": -50.0
+		},
+		"shipSpawnRotation": {
+			"x": -50.0,
+			"y": 50.0
+		}
+	}
+}

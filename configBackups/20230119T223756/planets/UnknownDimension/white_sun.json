@@ -1,0 +1,31 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "White Sun",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "inverseSquared",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 100.0,
+		"surfaceSize": 700.0
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"showOrbitLine": false,
+		"isStatic": true
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"Star": {
+		"size": 700.0,
+		"solarLuminosity": 0.8,
+		"tint": {
+			"r": 200,
+			"g": 220,
+			"b": 250
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "blackHole"
+	}
+}

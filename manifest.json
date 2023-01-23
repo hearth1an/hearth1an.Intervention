@@ -1,0 +1,11 @@
+{
+    "filename": "NewHorizonsConfig.dll",
+    "author": "hearth1an",
+    "name": "Intervention",
+    "uniqueName": "hearth1an.Intervention",
+    "version": "1.0.0",
+    "owmlVersion": "2.1.0",    
+    "dependencies": [
+        "xen.NewHorizons"
+    ]
+}

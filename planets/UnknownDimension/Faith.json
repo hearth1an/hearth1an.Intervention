@@ -1,0 +1,411 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Faith",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"ambientLight": 0.5,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"surfaceGravity": 12.0,
+		"surfaceSize": 50.0		
+	},
+	"HeightMap": {
+		"resolution": 204,
+		"minHeight": 25,
+		"maxHeight": 40,
+		"heightMap": "planets/Assets/faith_heightmap.png",
+		"textureMap": "planets/Assets/faith_texture.png"
+
+	},
+	"canShowOnTitle": false,
+
+	"Orbit": {
+		"primaryBody": "Void Star",		
+		"showOrbitLine": true,
+		"semiMajorAxis": 2000.0,
+		"trueAnomaly": -270.0,
+		"inclination": -210
+	},
+	"Atmosphere": {
+		"atmosphereSunIntensity": 1,
+		"useAtmosphereShader": true,
+		"atmosphereTint": {
+			"r": 61,
+			"g": 153,
+			"b": 193
+		},		
+		"hasOxygen": true,
+		"size": 70.0		
+
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Slate_For_Jam.prefab",
+				"position": {
+					"x": -15.8109,
+					"y": 5.5162,
+					"z": -33.4765
+				},
+				"rotation": {
+					"x": 305.1389,
+					"y": 324.8695,
+					"z": 59.3871
+				},
+				"scale": 2.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Kaepora.prefab",
+				"position": {
+					"x": -27.4,
+					"y": 24.1154,
+					"z": -18.3577
+				},
+				"rotation": {
+					"x": 9.7866,
+					"y": 321.57,
+					"z": 51.2111
+				}
+			},
+			{
+				"rename": "Orb_1",
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"removeChildren": [ "Props_NOM_SmallOrb" ],
+				"position": {
+					"x": -40.8336,
+					"y": 23.2344,
+					"z": -5.6447
+				},
+				"rotation": {
+					"x": 8.2088,
+					"y": 276.0189,
+					"z": 187.9617
+				},
+				"scale": 0.7,
+				"isRelativeToParent": true
+
+			},
+			{
+				"rename": "Orb_2",
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"removeChildren": [ "Props_NOM_SmallOrb" ],
+				"position": {
+					"x": -40.8336,
+					"y": 23.2344,
+					"z": -5.6447
+				},
+				"rotation": {
+					"x": 8.2088,
+					"y": 276.0189,
+					"z": 187.9617
+				},
+				"scale": 0.7,
+				"isRelativeToParent": true
+
+			},
+			{
+				"rename": "Orb_3",
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"removeChildren": [ "Props_NOM_SmallOrb" ],
+				"position": {
+					"x": -40.8336,
+					"y": 23.2344,
+					"z": -5.6447
+				},
+				"rotation": {
+					"x": 8.2088,
+					"y": 276.0189,
+					"z": 187.9617
+				},
+				"scale": 0.7,
+				"isRelativeToParent": true
+
+			},
+			{
+				"rename": "Orb_4",
+				"assetBundle": "planets/assetbundle/jamassets",
+				"path": "Assets/Prefabs/Orb.prefab",
+				"removeChildren": [ "Props_NOM_SmallOrb" ],
+				"position": {
+					"x": -40.8336,
+					"y": 23.2344,
+					"z": -5.6447
+				},
+				"rotation": {
+					"x": 8.2088,
+					"y": 276.0189,
+					"z": 187.9617
+				},
+				"scale": 0.7,
+				"isRelativeToParent": true
+
+			},
+			{
+				"rename": "SandFall_1",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QSandFall/Q_SandFall (3)/Prefab_QM_Sandfall",
+				"position": {
+					"x": -13.4358,
+					"y": 4.4306,
+					"z": -34.5953
+				},
+				"rotation": {
+					"x": 277.2155,
+					"y": 22.7058,
+					"z": 1.3778
+
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/GrappleIsland/Tree_DW_M_Var",
+				"position": {
+					"x": -16.4079,
+					"y": 22.4657,
+					"z": -22.2524
+				},
+				"rotation": {
+					"x": 338.9963,
+					"y": 331.4346,
+					"z": 50.4269
+
+				},
+				"scale": 0.7
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Structures_DreamZone_1/Bridge_1_Alt",
+				"position": {
+					"x": -30.1987,
+					"y": 23.4154,
+					"z": -14.8577
+				},
+				"rotation": {
+					"x": 9.7866,
+					"y": 321.57,
+					"z": 51.2111
+
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Structures_DreamZone_1/Bridge_1_Alt",
+				"position": {
+					"x": -27.4,
+					"y": 24.1154,
+					"z": -18.3577
+				},
+				"rotation": {
+					"x": 9.7866,
+					"y": 321.57,
+					"z": 51.2111
+
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Structures_DreamZone_1/Bridge_1_Alt",
+				"position": {
+					"x": -27.4,
+					"y": 24.1154,
+					"z": -18.3577
+				},
+				"rotation": {
+					"x": 9.7866,
+					"y": 321.57,
+					"z": 51.2111
+
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_ProjectionHouse_Zone1/Interactables_ProjectionHouse_Zone1/TheatreRoom_ProjectionHouse_Zone1/Prefab_IP_SlideProjector_Ring",
+				"position": {
+					"x": -29.924,
+					"y": 21.899,
+					"z": -11.4886
+				},
+				"rotation": {
+					"x": 2.143,
+					"y": 303.0234,
+					"z": 54.3802
+
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone3/Sector_HiddenGorge/Sector_DreamFireHouse_Zone3/Interactables_DreamFireHouse_Zone3/Lanterns_DFH_Zone3/Prefab_IP_SimpleLanternItem_Zone3DFH_5",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/Orb_4",
+				"rename": "Lantern",
+				"position": {
+					"x": 1.5,
+					"y": 5,
+					"z": -12
+				}
+			},
+			{
+				"path": "RingWorld_Body/Sector_RingInterior/Sector_Zone1/Sector_SlideBurningRoom_Zone1/Interactables_SlideBurningRoom_Zone1/TorchRoot/Prefab_IP_FuelTorch",				
+				"position": {
+					"x": -28.8248,
+					"y": 19.3857,
+					"z": -13.8253
+				},
+				"rotation": {
+					"x": 5.824,
+					"y": 175.8403,
+					"z": 302.4477
+				}
+			}
+
+
+		],
+		"signals": [
+			{
+				"identificationRadius": 20,
+				"onlyAudibleToScope": false,
+				"parentPath": "Sector/Kaepora/Prop_IP_Telescope/DreamFire_Flames",
+				"audio": "Vision Torch Fire - Loop",
+				"detectionRadius": 100,
+				"isRelativeToParent": true,
+				"position": { "x": 0 },
+				"frequency": "Flames",
+				"name": "Seeker"
+			}
+		],
+		"slideShows": [
+			{
+				"parentPath": "Sector/Orb_1",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 4,
+					"y": -6,
+					"z": 8
+				},
+				"rotation": {
+					"x": 9.7866,
+					"y": 321.57,
+					"z": 51.2111
+				},
+				"type": "slideReel",
+				"reveals": [ "STRANGERS_POSSIBILITY_1" ],
+				"slides": [
+					{
+						"imagePath": "planets/assets/strangers_eye.png"
+					}
+				]
+			},
+			{
+				"parentPath": "Sector/Orb_2",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 1,
+					"y": -6,
+					"z": -4
+				},
+				"rotation": {
+					"x": 91,
+					"y": 0,
+					"z": 180
+				},
+				"type": "slideReel",
+				"reveals": [ "STRANGERS_POSSIBILITY_2" ],
+				"slides": [
+					{
+						"imagePath": "planets/assets/strangers_net.png"
+					}
+				]
+			},
+			{
+				"parentPath": "Sector/Orb_3",
+				"isRelativeToParent": true,
+				"position": {
+					"x": 7,
+					"y": -2,
+					"z": 4
+				},
+				"rotation": {
+					"x": 0,
+					"y": 90,
+					"z": 50
+				},
+				"type": "slideReel",
+				"reveals": [ "STRANGERS_POSSIBILITY_3" ],
+				"slides": [
+					{
+						"imagePath": "planets/assets/strangers_alien.png"
+					}
+				]
+			}
+		],
+		"singularities": [
+			{
+				"type": "blackHole",
+				"horizonRadius": 0.5,
+				"position": {
+					"x": -0.2,
+					"y": 2.7,
+					"z": 0.3
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"isRelativeToParent": true,
+				"parentPath": "Sector/SandFall_1",
+				"rename": "BH_STR",
+				"uniqueID": "BH_STR",
+				"pairedSingularity": "WH_2"
+			},
+			{
+				"type": "whiteHole",
+				"position": {
+					"x": 0,
+					"y": 60,
+					"z": 0
+				},
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985,
+				"isRelativeToParent": true,
+				"rename": "WH_STR",
+				"uniqueID": "WH_STR",
+				"pairedSingularity": "BH_2"
+			}
+		],
+		"dialogue": [
+			{
+				"position": {
+					"x": 0,
+					"y": 1,
+					"z": 0
+				},
+				"xmlFile": "planets/Dialogue/Enacra_Stranger.xml",
+				"parentPath": "Sector/Slate_For_Jam",
+				"isRelativeToParent": true,
+				"pathToAnimController": "Sector/Slate_For_Jam/Villager_HEA_Slate_ANIM_LogSit",
+				"radius": 2,
+				"range": 1
+			}
+		]
+	},	
+	"ReferenceFrame": {},
+	"Water": {
+		"density": 1.2,
+		"size": 37
+	},
+	"Sand": {
+		"size": 25
+	},
+	
+
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "planets/Audio/seeker.mp3",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.9,
+				"radius": 300.0
+			}
+		]
+	},
+
+	"removeChildren": [ "Sector/Prefab_IP_SlideProjector_Ring/ProjectionPivot/BuildingKitPivot/Structure_IP_TheaterScreen", "Sector/Prefab_IP_SlideProjector_Ring/SlideProjectorInterface" ]
+}

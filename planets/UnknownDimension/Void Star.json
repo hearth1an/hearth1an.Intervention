@@ -1,0 +1,48 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Void Star",
+	"starSystem": "UnknownDimension",
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "inverseSquared",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 50.0,
+		"surfaceSize": 200.0
+	},
+	"canShowOnTitle": true,
+	"Orbit": {		
+		"semiMajorAxis": 500000.0,
+		"showOrbitLine": false,
+		"isStatic": true
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"Star": {
+		"size": 150.0,
+		"solarLuminosity": 0.8,
+		"tint": {
+			"r": 200,
+			"g": 220,
+			"b": 250,
+			"a": 0
+		},
+		"stellarDeathType": "default",
+		"stellarRemnantType": "blackHole"
+	},
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/nomai",
+				"path": "Assets/Prefabs/Orb_Void.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},				
+				"scale": 320,
+				"keepLoaded": true
+			}
+		]
+	}
+}
