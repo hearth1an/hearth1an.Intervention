@@ -15,7 +15,7 @@
 		"primaryBody": "Void Star",		
 		"isTidallyLocked": true,
 		"showOrbitLine": true,
-		"semiMajorAxis": 1800.0,
+		"semiMajorAxis": 2000.0,
 		"trueAnomaly": 120.0,
 		"inclination": 210
 	},
