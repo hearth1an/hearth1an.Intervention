@@ -8,11 +8,11 @@
 		"hasMapMarker": true,
 		"invulnerableToSun": true,
 		"surfaceGravity": 50.0,
-		"surfaceSize": 200.0
+		"surfaceSize": 200.0			
 	},
+	
 	"canShowOnTitle": true,
 	"Orbit": {		
-		"semiMajorAxis": 500000.0,
 		"showOrbitLine": false,
 		"isStatic": true
 	},
@@ -39,10 +39,11 @@
 					"x": 0,
 					"y": 0,
 					"z": 0
-				},				
+				},
 				"scale": 320,
 				"keepLoaded": true
 			}
 		]
 	}
+	
 }

@@ -61,7 +61,7 @@
 		<SetCondition>ENDING_EXIT_TOLD</SetCondition>
 		<Dialogue>
 			<Page>I can't get you back, only you can find a way out. Those are rules.</Page>
-			<Page>You should now think like Escall and his clan did.</Page>
+			<Page>You should now think like Escall and his clan did after the warping to the Dark Bramble.</Page>
 			<Page>That's all I can say.</Page>
 		</Dialogue>		
 	</DialogueNode>
@@ -71,7 +71,7 @@
 		<EntryCondition>ENDING_EXIT_TOLD</EntryCondition>
 		<Dialogue>
 			<Page>I can't get you back, only you can find a way out. Those are rules.</Page>
-			<Page>You should now think like Escall and his clan did.</Page>
+			<Page>You should now think like Escall and his clan did after the warping to the Dark Bramble.</Page>
 			<Page>That's all I can say.</Page>			
 		</Dialogue>		
 	</DialogueNode>

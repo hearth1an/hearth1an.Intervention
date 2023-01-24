@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+
+    "credits": [
+        " ",
+        "hearth1an#Mod author",
+        " ",
+        "This mod was made for Outer Wilds New Horizons modding Jam in one week with no coding",
+        " ",
+        "Did little help:",
+        "clay",
+        "JohnCorby",
+        "xen",
+        "Trifid",
+        " ",
+        "and others from Outer Wilds Modding Discord community",
+        " ",
+        " ",
+        "Music used:",
+        "Andrew Prahlow, Arondight Studios",
+        " ",
+        " "
+    ]    
+}

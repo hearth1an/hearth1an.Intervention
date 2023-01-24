@@ -3,9 +3,9 @@
     "author": "hearth1an",
     "name": "Intervention",
     "uniqueName": "hearth1an.Intervention",
-    "version": "1.0.2",
-    "owmlVersion": "2.1.0",    
+    "version": "1.0.3",
+    "owmlVersion": "2.1.0",
     "dependencies": [
         "xen.NewHorizons"
-    ]
+    ]   
 }

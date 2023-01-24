@@ -159,23 +159,7 @@
 				"rename": "BH_DARK_2",
 				"uniqueID": "BH_DARK_2",
 				"pairedSingularity": "WH_3"
-			},
-			{
-				"type": "blackHole",
-				"horizonRadius": 2.5,
-				"position": {
-					"x": 17.08,
-					"y": -27.94,
-					"z": 2.98
-				},
-				"hasWarpEffects": true,
-				"renderQueueOverride": 2985,
-				"parentPath": "Sector/Dark_Level",
-				"isRelativeToParent": true,
-				"rename": "BH_DARK_1",
-				"uniqueID": "BH_DARK_1",
-				"pairedSingularity": "WH_DARK_2"
-			},
+			},			
 			{
 				"type": "whiteHole",
 				"position": {
@@ -194,17 +178,16 @@
 			{
 				"type": "whiteHole",
 				"position": {
-					"x": -7.112,
-					"y": 1.294,
+					"x": 0,
+					"y": 0,
 					"z": 0
 				},
 				"hasWarpEffects": true,
 				"renderQueueOverride": 2985,
 				"isRelativeToParent": true,
-				"parentPath": "Sector/Dark_Level",
-				"rename": "WH_DARK_2",
-				"uniqueID": "WH_DARK_2",
-				"pairedSingularity": "BH_DARK_1"
+				"rename": "WH_EXIT",
+				"uniqueID": "WH_EXIT",
+				"pairedSingularity": "BH_EXIT"
 			}
 		],
 		"dialogue": [
@@ -229,10 +212,37 @@
 				"audio": "Eye_of_Universe_Ambience_v2_01",
 				"clipSelection": "random",
 				"track": "music",
-				"volume": 0.8,
+				"volume": 1,
 				"radius": 300.0
 			}
+		],
+		"reverbVolumes": [
+			{
+				"position": {
+					"x": -10.04,
+					"y": 1.294,
+					"z": 0
+				},
+				"radius": 300
+			}
+		],
+		"creditsVolume": [
+			{
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"parentPath": "Sector/WH_EXIT",
+				"radius": 20,
+				"creditsType": "fast",
+				"rename": "Ending"
+			}
 		]
+
+
+
+
 	},
 
 	"ReferenceFrame": {},
@@ -240,5 +250,5 @@
 		"size": 10.0
 	},
 
-	"removeChildren": [ "Sector/Dark_Level/BH_DARK_1/BlackHoleRenderer", "Sector/Dark_Level/BH_DARK_1/BlackHoleRenderer/BlackHoleAmbience", "Sector/Dark_Level/WH_DARK_2/WhiteHoleAmbience", "Sector/Dark_Level/Gravity_New/AudioSource_GravityCrystal" ]
+	"removeChildren": [ "Sector/Dark_Level/BH_DARK_1/BlackHoleAmbience", "Sector/Dark_Level/WH_DARK_2/WhiteHoleAmbience", "Sector/Dark_Level/Gravity_New/AudioSource_GravityCrystal" ]
 }

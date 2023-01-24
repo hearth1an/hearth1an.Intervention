@@ -401,7 +401,7 @@
 				"audio": "planets/Audio/seeker.mp3",
 				"clipSelection": "random",
 				"track": "music",
-				"volume": 0.9,
+				"volume": 1,				
 				"radius": 300.0
 			}
 		]

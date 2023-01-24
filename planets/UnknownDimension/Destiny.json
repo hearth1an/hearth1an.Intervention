@@ -52,24 +52,7 @@
 				},
 				"scale": 1,
 				"rename": "Escall_Character"
-			},
-			{
-				"assetBundle": "planets/assetbundle/nomai",
-				"path": "Assets/Prefabs/Trigger_Item.prefab",
-				"removeChildren": [ "ConversationZone" ],
-				"position": {
-					"x": -7.7168,
-					"y": 33.6387,
-					"z": 76.9249
-				},
-				"rotation": {
-					"x": 283,
-					"y": 120.1688,
-					"z": 336.632
-				},
-				"scale": 1,
-				"rename": "Escall_Character"
-			},
+			},			
 			{
 				"assetBundle": "planets/assetbundle/nomai",
 				"path": "Assets/Prefabs/Void_Crack.prefab",
@@ -239,13 +222,15 @@
 				"type": "blackHole",
 				"horizonRadius": 1.5,
 				"position": {
-					"x": -26.6109,
-					"y": 97.9519,
-					"z": -47.4101
+					"x": -29.5295,
+					"y": 89.0591,
+					"z": -48.2007
 				},
 				"renderQueueOverride": 2985,
 				"rename": "BH_EXIT",
-				"uniqueID": "BH_EXIT"				
+				"uniqueID": "BH_EXIT",
+				"pairedSingularity": "WH_EXIT"
+				
 			},
 			{
 				"type": "whiteHole",
@@ -404,7 +389,7 @@
 		"Sector/Vessel_Prefab/RFVolume",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Volumes_VesselBridge/ZeroGVolume",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Prefab_NOM_Recorder",
-		"NomaiFaith_Body/Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/DynamicProps",
+		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/DynamicProps",
 		"Sector/WH_NOM/WhiteHoleAmbience",
 		"Sector/Orb_1/Props_NOM_SmallOrb",
 		"Sector/Orb_2/Props_NOM_SmallOrb",
@@ -413,7 +398,6 @@
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Arc_DB_Vessel_IncomingMessage",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Arc_DB_Vessel_OutgoingMessage",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/VesselHologram_EyeSignal",
-		"Sector/BH_NOM_EXIT/BlackHoleAmbience",
-		"Sector/BH_NOM_EXIT/BlackHoleRenderer"
+		"Sector/BH_EXIT/BlackHoleAmbience"		
 	]
 }
