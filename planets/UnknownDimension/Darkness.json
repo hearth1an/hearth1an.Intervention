@@ -228,20 +228,18 @@
 		],
 		"creditsVolume": [
 			{
+				"isRelativeToParent": true,
+				"parentPath": "Sector/WH_EXIT",
 				"position": {
 					"x": 0,
 					"y": 0,
 					"z": 0
 				},
-				"parentPath": "Sector/WH_EXIT",
-				"radius": 20,
+				"radius": 10,
 				"creditsType": "fast",
 				"rename": "Ending"
 			}
 		]
-
-
-
 
 	},
 
