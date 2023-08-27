@@ -1,7 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	<TextBlock>
 		<ID>1</ID>        
-		<Text>Escall have missed the Eye's signal and warped back to Nomai system. On festival nomai found a way to explore the Macro World.</Text>
+		<Text>Escall missed the Eye's signal and warped back to the Nomai system. During a festival, the Nomai found a way to explore the Macro World.</Text>
 	</TextBlock>
 	 <ShipLogConditions>
     <RevealFact>

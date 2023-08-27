@@ -159,7 +159,9 @@
 					"y": 22.7058,
 					"z": 1.3778
 
-				}
+				},
+				"activationCondition": "STR_DIALOGUE_DONE",
+				"blinkWhenActiveChanged": true
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_1/Props_DreamZone_1/OtherComponentsGroup/Trees_Z1/GrappleIsland/Tree_DW_M_Var",

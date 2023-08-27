@@ -7,18 +7,20 @@
 		"gravityFallOff": "linear",
 		"hasMapMarker": true,
 		"surfaceGravity": 10.0,
-		"surfaceSize": 70.0
-			
+		"surfaceSize": 70.0,
+		"invulnerableToSun": true
+
 	},
-	"canShowOnTitle": false,	
+	"canShowOnTitle": false,
 	"Orbit": {
 		"primaryBody": "Void Star",
 		"siderealPeriod": 7.0,
 		"isTidallyLocked": true,
 		"showOrbitLine": false,
 		"semiMajorAxis": 1300.0,
-		"trueAnomaly": 10.0			
+		"trueAnomaly": 10.0
 	},
+
 	"Props": {
 
 		"details": [
@@ -59,7 +61,9 @@
 					"x": 6.41323328,
 					"y": 269.4216,
 					"z": 177.331955
-				}
+				},
+				"activationCondition": "STARTING_CONDITION",
+				"blinkWhenActiveChanged": true
 			},
 			{
 				"rename": "SandFall_2",
@@ -73,7 +77,10 @@
 					"x": 5.29473972,
 					"y": 143.630981,
 					"z": 162.126511
-				}
+				},
+				"activationCondition": "STARTING_CONDITION",
+				"deactivationCondition": "ENDING_EXIT_TOLD",
+				"blinkWhenActiveChanged": true
 			},
 			{
 				"rename": "SandFall_3",
@@ -87,7 +94,10 @@
 					"x": 0.327797085,
 					"y": 72.9717941,
 					"z": 203.142731
-				}
+				},
+				"activationCondition": "STARTING_CONDITION",
+				"deactivationCondition": "ENDING_EXIT_TOLD",
+				"blinkWhenActiveChanged": true
 			},
 			{
 				"path": "Precedent_Body/Sector/SandFall_1/SandPileSplash",
@@ -813,14 +823,16 @@
 		"size": 80.0
 	},
 
-	"ShockEffect": {},
 	"Spawn": {
-		"playerSpawnPoint": {
-			"y": 20.0
-		},
-		"playerSpawnRotation": {},
-		"startWithSuit": true
+		"playerSpawn": {
+			"startWithSuit": true,
+			"position": { "y": 20 }
+
+		}
 	},
+	"ShockEffect": {},
+
+
 	"Volumes": {
 		"audioVolumes": [
 			{
@@ -834,4 +846,5 @@
 	},
 
 	"removeChildren": [ "Sector/WH_1/WhiteHoleAmbience", "Sector/WH_2/WhiteHoleAmbience", "Sector/WH_3/WhiteHoleAmbience" ]
+
 }

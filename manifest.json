@@ -3,8 +3,8 @@
     "author": "hearth1an",
     "name": "Intervention",
     "uniqueName": "hearth1an.Intervention",
-    "version": "1.0.4",
-    "owmlVersion": "2.1.0",
+    "version": "1.0.5",
+    "owmlVersion": "2.1.0",    
     "dependencies": [
         "xen.NewHorizons"
     ]   

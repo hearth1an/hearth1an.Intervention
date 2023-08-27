@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Player",	
+	"Props": {
+		"details": [
+			{
+				"assetBundle": "planets/assetbundle/nomai",
+				"path": "Assets/Prefabs/Orb_Void.prefab",
+				"position": {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale": 5,				
+				"rename": "PlayerOrb"
+				
+			}
+		]
+	}
+
+
+
+}

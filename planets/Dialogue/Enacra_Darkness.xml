@@ -6,8 +6,8 @@
 		<EntryCondition>DEFAULT</EntryCondition>
 		<SetCondition>START_DONE_DARK</SetCondition>		
 		<Dialogue>
-			<Page>You may be wondering why it is only the darkness here.</Page>
-			<Page>In fact, Feldspar, was the first one who noticed the Eye symbol.</Page>								
+			<Page>You might be wondering why there is only darkness here.</Page>
+			<Page>In fact, Feldspar was the first one to notice the Eye symbol.</Page>							
 		</Dialogue>
 		<DialogueOptionsList>
 		    <DialogueOption>				
@@ -37,11 +37,11 @@
 		<SetCondition>DARK_DIALOGUE_DONE_2</SetCondition>
 		<SetPersistentCondition>DARK_DONE</SetPersistentCondition>
 		<Dialogue>
-		    <Page>In all other timelines Feldspar is dead.</Page>	
-			<Page>Ask yourself, how many chances he had to stay alive after encountering anglers or electrified jellyfish?</Page>
-			<Page>What about his ship safety? Gravity? Dark matter? There were countless ways to die.</Page>	
+		    <Page>In all other timelines, Feldspar is dead.</Page>
+			<Page>Ask yourself, how many chances did he have to stay alive after encountering anglers or electrified jellyfish?</Page>
+			<Page>What about his ship's safety? Gravity? Dark matter? There were countless ways to die.</Page>
 			<Page>Even you, just remember your first death.</Page>
-			<Page>That's why there is literally nothing here. Only the darkness.</Page>							
+			<Page>That's why there is literally nothing here. Only darkness.</Page>					
 		</Dialogue>	
 		<DialogueOptionsList>
 		    <DialogueOption>				

@@ -7,19 +7,19 @@
 		<SetCondition>START_DONE</SetCondition>		
 		<Dialogue>
 			<Page>Escall's fate was sealed in this timeline.</Page>
-			<Page>We were watching for Nomai since their intelligence threatens our reality.</Page>				
+			<Page>We were monitoring the Nomai, as their intelligence threatens our reality.</Page>		
 		</Dialogue>
 		<DialogueOptionsList>
 		    <DialogueOption>
 				<RequiredLogCondition>NOMAI_POSSIBILITY_1</RequiredLogCondition>
 				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
 				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
-				<Text>I understood the importance of Nomai destiny.</Text>					
+				<Text>I grasped the significance of the Nomai's destiny.</Text>				
 				<DialogueTarget>NOMAI_ENACRA_DONE</DialogueTarget>			
 			</DialogueOption>
 			<DialogueOption>
 				<CancelledPersistentCondition>NOT_WANT_TOLD</CancelledPersistentCondition>
-				<Text>But what if I don't want to know such things?</Text>					
+				<Text>But what if I prefer not to learn about such matters?</Text>					
 				<DialogueTarget>2</DialogueTarget>					
 			</DialogueOption>
 		</DialogueOptionsList>	
@@ -36,12 +36,12 @@
 				<RequiredLogCondition>NOMAI_POSSIBILITY_1</RequiredLogCondition>
 				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
 				<RequiredLogCondition>NOMAI_POSSIBILITY_3</RequiredLogCondition>
-				<Text>I understood the importance of Nomai destiny.</Text>					
+				<Text>I grasped the significance of the Nomai's destiny.</Text>			
 				<DialogueTarget>NOMAI_ENACRA_DONE</DialogueTarget>			
 			</DialogueOption>
 			<DialogueOption>
 				<CancelledPersistentCondition>NOT_WANT_TOLD</CancelledPersistentCondition>
-				<Text>But what if I don't want to know such things?</Text>					
+				<Text>But what if I prefer not to learn about such matters?</Text>					
 				<DialogueTarget>2</DialogueTarget>					
 			</DialogueOption>
 		</DialogueOptionsList>		
@@ -95,10 +95,10 @@
 		<SetCondition>NOMAI_DIALOGUE_DONE</SetCondition>
 		<SetPersistentCondition>NOMAI_DONE</SetPersistentCondition>
 		<Dialogue>
-			<Page>It is not the main point. Imagine if Nomai would find the Eye? </Page>			
-			<Page>We have a prediction about the most advanced race that will reach the Eye to explore it's essence.</Page>
-			<Page>It will cause all realities collapse, that's why we keep watching for everyone, who is close enough to interact with Eye.</Page>
-			<Page>That's all for now.</Page>							
+			<Page>However, that's not the main point. Imagine if the Nomai were to find the Eye?</Page>
+			<Page>We have a prediction about the most advanced race that will reach the Eye to explore its essence.</Page>
+			<Page>It will cause a collapse of all realities. That's why we keep watch over anyone who comes close enough to interact with the Eye.</Page>
+			<Page>That's all for now.</Page>					
 		</Dialogue>		
 	</DialogueNode>
 </DialogueTree>

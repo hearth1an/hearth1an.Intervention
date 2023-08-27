@@ -432,6 +432,7 @@
 
 	"removeChildren": [
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Volumes_VesselBridge/GravityOxygenVolume_VesselBridge",
+		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/WarpController/WarpCoreSocket",
 		"Sector/Vessel_Prefab/RFVolume",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Volumes_VesselBridge/ZeroGVolume",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Prefab_NOM_Recorder",
@@ -443,7 +444,7 @@
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Prefab_NOM_Recorder",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Arc_DB_Vessel_IncomingMessage",
 		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/Arc_DB_Vessel_OutgoingMessage",
-		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/VesselHologram_EyeSignal",
-			
+		"Sector/Vessel_Prefab/Sector_VesselBridge/Interactibles_VesselBridge/VesselHologram_EyeSignal"
+
 	]
 }

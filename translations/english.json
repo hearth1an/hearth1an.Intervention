@@ -1,0 +1,92 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+		"The Void awaits.": "The Void awaits.",
+		"I was in each singularity...": "I was in each singularity...",
+		"Slate? Is it you?": "Slate? Is it you?",
+		"Where am I? What is this place?": "Where am I? What is this place?",
+		"We've met many times and never met before.": "We've met many times and never met before.",
+		"I don't understand...": "I don't understand...",
+		"And now you know your destiny. You must enter the Eye of the Universe.": "And now you know your destiny. You must enter the Eye of the Universe.",
+		"Otherwise, only darkness awaits you.": "Otherwise, only darkness awaits you.",
+		"The precedent is resolved.": "The precedent is resolved.",
+		"I've understood the importance of myself and my timeline.": "I've understood the importance of myself and my timeline.",
+		"I can't bring you back, only you can find a way out. Those are the rules.": "I can't bring you back, only you can find a way out. Those are the rules.",
+		"Now, you should think like Escall and his clan did after warping to the Dark Bramble.": "Now, you should think like Escall and his clan did after warping to the Dark Bramble.",
+		"That's all I can say.": "That's all I can say.",
+		"You don't have to. The reason you're here is your timeline.": "You don't have to. The reason you're here is your timeline.",
+		"You can be sure I am not Slate. Probably it's just your interpretation of the observed entity.": "You can be sure I am not Slate. Probably it's just your interpretation of the observed entity.",
+		"You can call me Enacra, but usually we have no names.": "You can call me Enacra, but usually we have no names.",
+		"We are concerned about your condition. Certain things must happen in a certain way — do not hinder.": "We are concerned about your condition. Certain things must happen in a certain way — do not hinder.",
+		"Our worlds must never cross, but the current timeline is suffering. I am here to fix this.": "Our worlds must never cross, but the current timeline is suffering. I am here to fix this.",
+		"Your universe is not the only one, nor is your form of existence. I came from the Void.": "Your universe is not the only one, nor is your form of existence. I came from the Void.",
+		"But our worlds would never cross!": "But our worlds would never cross!",
+		"It's a matter of perspective. The possibility exists, and it's rising due to the complexity of your timeline.": "It's a matter of perspective. The possibility exists, and it's rising due to the complexity of your timeline.",
+		"You came too close we had to intervene. We must maintain the balance.": "You came too close we had to intervene. We must maintain the balance.",
+		"You will witness the most relevant events of your own time stream.": "You will witness the most relevant events of your own time stream.",
+		"I will show you the importance of your inevitable future.": "I will show you the importance of your inevitable future.",
+		"Cross each singularity to grasp the knowledge.": "Cross each singularity to grasp the knowledge.",
+		"There is always a choice. Time has stopped. If you die here, you will dissolve in darkness.": "There is always a choice. Time has stopped. If you die here, you will dissolve in darkness.",
+		"Alright.. I'll do this..": "Alright.. I'll do this..",
+		"We will meet again.": "We will meet again.",
+		"It is not a place exactly, but the time point, the static one. You are in stasis that we created.": "It is not a place exactly, but the time point, the static one. You are in stasis that we created.",
+		"We are concerned about your condition. Certain things must happen in a certain way.": "We are concerned about your condition. Certain things must happen in a certain way.",
+		"Once you grasp the knowledge from each singularity, you will be free.": "Once you grasp the knowledge from each singularity, you will be free.",
+		"Until then, you and I will be in stasis.": "Until then, you and I will be in stasis.",
+		"Seems like I have no choice...": "Seems like I have no choice...",
+		"Thanks for reminding.": "Thanks for reminding.",
+
+		"You might be wondering why there is only darkness here.": "You might be wondering why there is only darkness here.",
+		"In fact, Feldspar was the first one to notice the Eye symbol.": "In fact, Feldspar was the first one to notice the Eye symbol.",
+		"So, why it's only the darkness here?": "So, why it's only the darkness here?",
+		"In all other timelines, Feldspar is dead.": "In all other timelines, Feldspar is dead.",
+		"Ask yourself, how many chances did he have to stay alive after encountering anglers or electrified jellyfish?": "Ask yourself, how many chances did he have to stay alive after encountering anglers or electrified jellyfish?",
+		"What about his ship's safety? Gravity? Dark matter? There were countless ways to die.": "What about his ship's safety? Gravity? Dark matter? There were countless ways to die.",
+		"Even you, just remember your first death.": "Even you, just remember your first death.",
+		"That's why there is literally nothing here. Only darkness.": "That's why there is literally nothing here. Only darkness.",
+		"Alright, what's next?": "Alright, what's next?",
+
+		"Escall's fate was sealed in this timeline.": "Escall's fate was sealed in this timeline.",
+		"We were monitoring the Nomai, as their intelligence threatens our reality.": "We were monitoring the Nomai, as their intelligence threatens our reality.",
+		"I grasped the significance of the Nomai's destiny.": "I grasped the significance of the Nomai's destiny.",
+		"But what if I prefer not to learn about such matters?": "But what if I prefer not to learn about such matters?",
+		"It is ruled out.": "It is ruled out.",
+		"No exceptions.": "No exceptions.",
+		"Now you know Nomai destiny.": "Now you know Nomai destiny.",
+		"It should be clear.": "It should be clear.",
+		"However, that's not the main point. Imagine if the Nomai were to find the Eye?": "However, that's not the main point. Imagine if the Nomai were to find the Eye?",
+		"We have a prediction about the most advanced race that will reach the Eye to explore its essence.": "We have a prediction about the most advanced race that will reach the Eye to explore its essence.",
+		"It will cause a collapse of all realities. That's why we keep watch over anyone who comes close enough to interact with the Eye.": "It will cause a collapse of all realities. That's why we keep watch over anyone who comes close enough to interact with the Eye.",
+		"That's all for now.": "That's all for now.",
+
+		"This is the first Eye Seeker. Their past was as dark as their future.": "This is the first Eye Seeker. Their past was as dark as their future.",
+		"With ancient flames, they had the ability to seek out other worlds, but their time was coming to an end.": "With ancient flames, they had the ability to seek out other worlds, but their time was coming to an end.",
+		"Eventually, they had no other option.": "Eventually, they had no other option.",
+		"I grasped the significance of the Seekers' choice.": "I grasped the significance of the Seekers' choice.",
+		"Why was their past dark? Why did they have no choice?": "Why was their past dark? Why did they have no choice?",
+		"There are mysteries that shouldn't be revealed in this timeline.": "There are mysteries that shouldn't be revealed in this timeline.",
+		"You won't be able to fathom the darkness of their origin.": "You won't be able to fathom the darkness of their origin.",
+		"Soon.": "Soon.",
+		"Now you understand the significance of the Seekers' choice.": "Now you understand the significance of the Seekers' choice.",
+		"Ancient flames attract the darkest creatures. The price they paid for using it was too steep.": "Ancient flames attract the darkest creatures. The price they paid for using it was too steep.",
+		"Only the Eye could grant them a little more time, to meet their end in simulation.": "Only the Eye could grant them a little more time, to meet their end in simulation.",
+		"Now we're done here.": "Now we're done here.",
+
+
+		"Escall received the Eye's signal but chose to seek assistance from other Nomai clans. They discovered the bramble, but the Eye's signal was lost.": "Escall received the Eye's signal but chose to seek assistance from other Nomai clans. They discovered the bramble, but the Eye's signal was lost.",
+		"Escall received the Eye's signal and initiated the warp. He and his clan became trapped in the Dark Bramble.": "Escall received the Eye's signal and initiated the warp. He and his clan became trapped in the Dark Bramble.",
+		"Escall missed the Eye's signal and warped back to the Nomai system. During a festival, the Nomai found a way to explore the Macro World.": "Escall missed the Eye's signal and warped back to the Nomai system. During a festival, the Nomai found a way to explore the Macro World.",
+		
+
+	},
+	"UIDictionary": {
+
+		"Destiny — The Eye": "Destiny — The Eye",
+		"Destiny — Dark Bramble": "Destiny — Dark Bramble",
+		"Destiny — Macro World": "Destiny — Macro World"
+
+	}
+
+	
+
+}
