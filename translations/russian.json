@@ -1,0 +1,105 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"DialogueDictionary": {
+
+		// First location (seems to be)
+
+		"The Void awaits.": "<![CDATA[<color=purple>Пустота</color>]]> ждёт.",
+		"I was in each singularity...": "Я посетил все сингулярности...",
+		"Slate? Is it you?": "Сланец?",
+		"Where am I? What is this place?": "Где я? Что это за место?",
+		"We've met many times and never met before.": "Мы втречались множество раз, но в то же время никогда не виделись.",
+		"I don't understand...": "Я не понимаю...",
+		"And now you know your destiny. You must enter the Eye of the Universe.": "Теперь ты знаешь свою судьбу. Ты должен войти в Око Вселенной.",
+		"Otherwise, only darkness awaits you.": "Иначе тебя ждёт лишь тьма.",
+		"The precedent is resolved.": "Прецедент решён.",
+		"I've understood the importance of myself and my timeline.": "Я осознал свою важность и роль своей временной линии.",
+		"I can't bring you back, only you can find a way out. Those are the rules.": "Я не могу вернуть тебя назад, лишь сам ты можешь найти выход. Таковы правила.",
+		"Now, you should think like Escall and his clan did after warping to the Dark Bramble.": "Теперь ты должен думать как Эскалл и его клан после гиперпрыжка в Чёрный Терновник.",
+		"That's all I can say.": "Это всё, что я могу сказать.",
+		"You don't have to. The reason you're here is your timeline.": "Ты и не должен. Причина, по которой ты здесь — твоя временная линия.",
+		"You can be sure I am not Slate. Probably it's just your interpretation of the observed entity.": "Нет, я не Сланец. Вероятно, это просто твоя интерпретация наблюдаемого объекта.",
+		"You can call me Enacra, but usually we have no names.": "Ты можешь звать меня Энакра, но нам не дают имён.",
+		"We are concerned about your condition. Certain things must happen in a certain way — do not hinder.": "Нас беспокоит твоё настоящее. Определённые вещи должны случиться определённым образом — не сопровтивляйся этому.",
+		"Our worlds must never cross, but the current timeline is suffering. I am here to fix this.": "Наши миры не должны пересекаться, но ход вещей в этой временной линии нестабилен. Я здесь, чтобы это исправить.",
+		"Your universe is not the only one, nor is your form of existence. I came from the Void.": "Твоя вселенная не единственна, как и ваша форма жизни. Я пришёл из <![CDATA[<color=purple>Пустоты.</color>]]>",
+		"But our worlds would never cross!": "Но наши миры никогда бы не пересеклись!",
+		"It's a matter of perspective. The possibility exists, and it's rising due to the complexity of your timeline.": "Это вопрос перспективы. Возможность существует, её вероятность растёт из-за усложнения текущей временной линии.",
+		"You came too close we had to intervene. We must maintain the balance.": "Ты зашёл слишком далеко, нам пришлось вмешаться. Мы должны соблюсти баланс.",
+		"You will witness the most relevant events of your own time stream.": "Ты станешь свидетелем важнейших событий своего собственного временной линии.",
+		"I will show you the importance of your inevitable future.": "Я покажу тебе важность твоего неотвратимого будущего.",
+		"Cross each singularity to grasp the knowledge.": "Войди в каждую сингулярность, чтобы познать истину.",
+		"There is always a choice. Time has stopped. If you die here, you will dissolve in darkness.": "Всегда есть выбор. Время не властвует здесь. И если ты погибнешь, твоё тело и сознание растворятся во тьме.",
+		"Alright.. I'll do this..": "Хорошо... Как.. скажешь...",
+		"We will meet again.": "Мы встретимся вновь.",
+		"It is not a place exactly, but the time point, the static one. You are in stasis that we created.": "Это не совсем место, скорее временная точка, статическая. Ты находишься в созданном нами стазисе.",
+		"But... why?": "Но... Почему?",
+		"Once you grasp the knowledge from each singularity, you will be free.": "Лишь познав смысл каждой из сингулярностей, ты будешь освобождён.",
+		"Until then, you and I will be in stasis.": "До тех пор мы останемся здесь, в стазисе.",
+		"Seems like I have no choice...": "Похоже, у меня нет выбора...",
+		"Thanks for reminding.": "Благодарю за напоминание.",
+		"Your universe is not the only one, nor is your form of existence.": "Твоя вселенная не единственна, как и ваша форма жизни.",
+
+		"You might be wondering why there is only darkness here.": "Вероятно тебе интересно, почему вокруг лишь тьма.",
+		"In fact, Feldspar was the first one to notice the Eye symbol.": "Интересный факт - Шпат был первым, кто встретил символ Ока.",
+		"So, why it's only the darkness here?": "Так что, почему вокруг лишь тьма?",
+		"In all other timelines, Feldspar is dead.": "Во всех остальных временных линиях Шпат мёртв.",
+		"Ask yourself, how many chances did he have to stay alive after encountering anglers or electrified jellyfish?": "Спроси себя, велика ли вероятность была выжить при встрече с удильщиками или электрическими медузами?",
+		"What about his ship's safety? Gravity? Dark matter? There were countless ways to die.": "Что насчёт надежности его корабля? Гравитации? Призрачной материи? Бесчисленное количество способов погибнуть.",
+		"Even you, just remember your first death.": "Даже ты, просто вспомни свою первую смерть.",
+		"That's why there is literally nothing here. Only darkness.": "Вот почему здесь буквально ничего нет. Только тьма.",
+		"Alright, what's next?": "Хорошо, что дальше?",
+
+		"Escall's fate was sealed in this timeline.": "Участь Эскалла была предрешена в текущей временной линии.",
+		"We were monitoring the Nomai, as their intelligence threatens our reality.": "Мы давно следили за номаи, поскольку их умственный потенциал угрожает нашей реальности.",
+		"I grasped the significance of the Nomai's destiny.": "Я осознал важность судьбы ноимаи.",
+		"But what if I prefer not to learn about such matters?": "Но что если я не хочу знать всего этого?!",
+		"It is ruled out.": "Это исключено.",
+		"No exceptions.": "Никаких исключений.",
+		"Now you know Nomai destiny.": "Теперь тебе известно о судьбе номаи.",
+		"It should be clear.": "Это должно понятно.",
+		"However, that's not the main point. Imagine if the Nomai were to find the Eye?": "Тем не менее, не в этом суть. Представь, если бы номаи всё-таки нашли Око Вселенной?",
+		"We have a prediction about the most advanced race that will reach the Eye to explore its essence.": "У нас есть предсказание о достаточно развитой расе, которая сможет достичь Ока и раскрыть его тайны.",
+		"It will cause a collapse of all realities. That's why we keep watch over anyone who comes close enough to interact with the Eye.": "Это станет концом для всех реальностей сразу. Поэтому мы следим за всеми, кто достаточно близко подберётся к Оку.",
+		"That's all for now.": "На этом всё.",
+
+		"This is the first Eye Seeker. Their past was as dark as their future.": "Это — первый Искатель Ока. Их прошлое окутано тьмой, как и будущее впрочем.",
+		"With ancient flames, they had the ability to seek out other worlds, but their time was coming to an end.": "Благодаря древнему пламени, они могли смотреть в другие миры, но их время уже подходило к концу.",
+		"Eventually, they had no other option.": "Со временем у них не осталось выбора.",
+		"I grasped the significance of the Seekers' choice.": "Я осознал важность выбора Искателя.",
+		"Why was their past dark? Why did they have no choice?": "Почему их прошлое тёмное? И почему у них не было выбора?",
+		"There are mysteries that shouldn't be revealed in this timeline.": "Есть тайны, которые не должны быть раскрыты в текущей временной линии.",
+		"You won't be able to fathom the darkness of their origin.": "Ты не сможешь осознать тьму их происхождения.",
+		"Soon.": "Скоро.",
+		"Now you understand the significance of the Seekers' choice.": "Теперь ты понимаешь важность выбора Искателя.",
+		"Ancient flames attract the darkest creatures. The price they paid for using it was too steep.": "Древнее пламя привлекает самых ужасных созданий. Они заплатили слишком высокую цену за обладание им.",
+		"Only the Eye could grant them a little more time, to meet their end in simulation.": "Лишь Око могло дать им больше времени, чтобы встретить свой конец в симуляции.",
+		"Now we're done here.": "На этом всё.",
+
+
+		"Escall received the Eye's signal but chose to seek assistance from other Nomai clans. They discovered the bramble, but the Eye's signal was lost.": "Эскалл получил сигнал Ока, но запросил помощи у других кланов номаи. Они смогли обнаружить Чёрный Терновник, но сигнал Ока был утерян.",
+		"Escall received the Eye's signal and initiated the warp. He and his clan became trapped in the Dark Bramble.": "Эскалл получил сигнал Ока и совершил гиперпрыжок. Он и его клан попали в ловушку в Чёрного Терновника.",
+		"Escall missed the Eye's signal and warped back to the Nomai system. During a festival, the Nomai found a way to explore the Macro World.": "Эскалл упустил сигнал Ока и вернулся к другим номаи. На фестивале они нашли способ исследовать Макромир."
+
+
+	},
+	"UIDictionary": {
+		
+		"Enacra": "Энакра",
+		"Flames": "Пламя",
+		"Seeker": "Искатель",
+		
+		"Precedent": "Прецедент",
+		"Void Star": "Пустотная Звезда",
+		"Faith": "Вера",
+		"Destiny": "Судьба",
+		
+		"Destiny — The Eye": "Судьба — Око",
+		"Destiny — Dark Bramble": "Судьба — Чёрный Терновник",
+		"Destiny — Macro World": "Судьба — Макромир"
+
+	}
+
+	
+
+}
